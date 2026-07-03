@@ -1,0 +1,16 @@
+package vu.comparison;
+
+
+public class Comparison {
+
+    
+        public void recordRainfallForLoop() {
+    double[] dailyRainfall = new double[30];
+    
+    for (int day = 0; day < 30; day++) {
+        // Simulate recording rainfall for each day
+        dailyRainfall[day] = Math.random() * 60; // 0-60 mm
+        System.out.println("Day " + (day + 1) + ": " + dailyRainfall[day] + " mm");
+    }
+}
+    }
